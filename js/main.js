@@ -187,7 +187,7 @@ function enable_pin() {
 }
 
 function disable_pin() {
-  $('#show_pin').html('Manage Classes')
+  $('#show_pin').html('Choose your Classes')
   localStorage.setItem("show_pin", false)
   disable_pin_button_color();
 }
