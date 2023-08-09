@@ -178,16 +178,26 @@ function toggle_sorted_button_color(){
   }
 }
 
+function toggle_tutorial_button_color(){
+  if ( $("#tutorial").is(":visible") ) {
+    $('#show_tutorial').removeClass("btn-secondary")
+    $('#show_tutorial').addClass("btn-success")
+  } else {
+    $('#show_tutorial').removeClass("btn-success")
+    $('#show_tutorial').addClass("btn-secondary")
+  }
+}
+
 
 // pin staff
 function enable_pin() {
-  $('#show_pin').html('Save')
+  $('#show_pin').html('Αποθήκευση')
   localStorage.setItem("show_pin", true);
   enable_pin_button_color();
 }
 
 function disable_pin() {
-  $('#show_pin').html('Choose your Classes')
+  $('#show_pin').html('Επιλογή Μαθημάτων')
   localStorage.setItem("show_pin", false)
   disable_pin_button_color();
 }
@@ -253,6 +263,10 @@ function add_to_Pinned(lclass) {
   localStorage.setItem(lclass, true);
 }
 
+function toggle_tutorial() {
+  $('#tutorial').toggle();
+  toggle_tutorial_button_color();
+}
 
 // Manage Classes rework
 

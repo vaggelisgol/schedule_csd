@@ -73,3 +73,23 @@
 .c-gap {
   gap: 30px;
 }
+
+#tutorial {
+  display: none;
+}
+
+.tutorial-inside {
+  margin: 2rem;
+  padding: 1rem; /* Add padding to create space between content and rounded corners */
+  background-color: #d1ef9a; /* Set background color */
+  border-radius: 20px; /* Add rounded corners */
+  display: inline-block; /* Allow the element to wrap its content */
+}
+
+/* Media (GIF or image) within each tutorial step */
+.tutorial-media img {
+  max-width: 100%;
+  height: auto;
+  display: block; /* To remove extra space below images */
+  margin: 0 auto; /* Center align images */
+}
