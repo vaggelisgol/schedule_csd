@@ -1,4 +1,4 @@
-const csd_version = '28/7/2023'
+const csd_version = '5/9/2023'
 var programma = [
 	{
 		class: 'ΗΥ-100',
@@ -151,7 +151,7 @@ var programma = [
 		tuesday: '',
 		wednesday: '12-2 ΑΜΦ Α',
 		thursday: '',
-		friday: '12-2 Η.204 (ΦΡΟΝΤ)',
+		friday: '12-2 Α.117 (ΦΡΟΝΤ)',
 		time_score: 12
 	},
 	{
@@ -268,7 +268,7 @@ var programma = [
 		class: 'ΗΥ-454',
 		name: 'Τεχνολογία Ανάπτυξης Έξυπνων ∆ιεπαφών και Παιχνιδιών',
 		teacher: 'ΣΑΒΒΙ∆ΗΣ',
-		monday: '12-2 Η.204',
+		monday: '12-2 Α.121',
 		tuesday: '12-2 Α.121 (ΦΡΟΝΤ)',
 		wednesday: '',
 		thursday: '10-12 Α.121',
@@ -346,9 +346,9 @@ var programma = [
 		name: 'Τεχνική Συγγραφή στα Αγγλικά',
 		teacher: 'ΡΙΖΟΠΟΥΛΟΥ',
 		monday: '',
-		tuesday: '10-12 Η.206',
+		tuesday: '10-12 Η.204',
 		wednesday: '',
-		thursday: '10-12 Η.206',
+		thursday: '10-12 Η.204',
 		friday: '',
 		time_score: 10
 	},
@@ -430,6 +430,17 @@ var programma = [
 		time_score: 16
 	},
 	{
+		class: 'ΗΥ-577',
+		name: 'Μηχανική Μάθηση',
+		teacher: 'ΤΣΑΜΑΡ∆ΙΝΟΣ',
+		monday: '12-2 Η.204',
+		tuesday: '',
+		wednesday: '12-2 Η.204',
+		thursday: '',
+		friday: '12-2 Η.204 (ΦΡΟΝΤ)',
+		time_score: 12
+	},
+	{
 		class: 'ΗΥ-578',
 		name: 'Επεξεργασία Φωνής',
 		teacher: 'ΣΤΥΛΙΑΝΟΥ',
@@ -466,10 +477,10 @@ var programma = [
 		class: 'ΗΥ-647',
 		name: 'Σύγχρονα Συστήματα Αποθήκευσης ∆εδομένων',
 		teacher: 'ΜΠΙΛΑΣ/ΣΑΛΟΥΣΤΡΟΣ',
-		monday: '',
-		tuesday: '10-12 Ε.313',
-		wednesday: '',
-		thursday: '10-12 Ε.313',
+		monday: '10-12 Ε.313',
+		tuesday: '',
+		wednesday: '10-12 Ε.313',
+		thursday: '',
 		friday: '10-12 Ε.313',
 		time_score: 10
 	},
