@@ -1,4 +1,4 @@
-const csd_version = '5/9/2023'
+const csd_version = '20/9/2023'
 var programma = [
 	{
 		class: 'ΗΥ-100',
